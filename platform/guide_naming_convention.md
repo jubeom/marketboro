@@ -28,6 +28,7 @@ public class GlobalExceptionHandler {}
 public void insertGoods(dto)
 public void insertStudentAgeAndName(Integer age, String name)
 ```
+
 * 조회(속성에 접근하는 메소드명의 접두사는 'get', 'set'을 사용)
   * controller, service 에서 사용
     ```java
@@ -37,24 +38,24 @@ public void insertStudentAgeAndName(Integer age, String name)
     public Book getBookName()
     ```
   * repository 조회시 사용
-       ```java
+    ```java
         public List<GoodsModel> findGoods()
         public List<GoodsModel> findGoods(Integer goodsId, Pageable pageable)
         public List<StudentModel> findStudent()
         public Book findOneBookName()
        ```
-* 수정
-```java
-public void updateGoodsCategoryName(Integer goodsId, String name)
-public void updateStudentName(Integer goodsId, name)
-public void updateStudentAge(Integer goodsId, Integer age)
-```
+  * repository 수정
+    ```java
+       public void updateGoodsCategoryName(Integer goodsId, String name)
+       public void updateStudentName(Integer goodsId, name)
+       public void updateStudentAge(Integer goodsId, Integer age)
+    ```
+  * repository 삭제
+    ```java
+       public void deleteByGoodsId(Integer goodsId)
+       public void deleteByName(String name)
+    ```
 
-* 삭제
-```java
-public void deleteByGoodsId(Integer goodsId)
-public void deleteByName(String name)
-```
 ## Variable
 ```java
 private Integer studentId;
@@ -69,6 +70,7 @@ private Integer count;
 */
 ```
 ![image](https://user-images.githubusercontent.com/57780013/69030161-1bcbf400-0a1a-11ea-9b11-83394eb64d6e.png)
+
 ## Java
 * JOOQ 테이블에 as(Alias) 사용은 경우에 따라 사용
 ```java
