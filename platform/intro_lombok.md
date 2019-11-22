@@ -114,3 +114,5 @@ Lombok이 제공하는 유용한 어노테이션 목록입니다. :thumbsup:
 * [`@CleanUp`](https://projectlombok.org/features/Cleanup)
   * 리소스를 사용 후(finally) `close()` 메소드를 호출합니다.
   * stream을 사용할 때 유용합니다.
+* [`@NonNull`](https://projectlombok.org/features/NonNull)
+  * 메소드 파라미터의 null을 체크하고 null인 경우 `NullPointerException` 을 발생시킵니다.
