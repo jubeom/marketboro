@@ -1,3 +1,10 @@
+---
+title: Naming Convention 정리
+author: hayun.lee
+layout: post
+---
+
+
 # Naming Convention 정리
 식별자의 이름을 지을 때 지켜야 할 규칙에 대해 정리하려고 합니다.
 
