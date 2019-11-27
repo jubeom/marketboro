@@ -1,5 +1,5 @@
 ---
-title: Naming Convention 정리
+title: Lombok
 author: jubeom.shin
 layout: post
 ---
