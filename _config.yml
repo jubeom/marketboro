@@ -37,7 +37,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   and We are dance very well.  
 author: Cha 
 email: rnd@marketboro.com
-avatar: assets/images/avatar.jpg
+avatar: assets/images/logo.jpg
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "/marketboro" # the subpath of your site, e.g. /blog
