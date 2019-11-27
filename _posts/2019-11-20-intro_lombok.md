@@ -1,3 +1,9 @@
+---
+title: Naming Convention 정리
+author: jubeom.shin
+layout: post
+---
+
 ## Lombok
 
 [Lombok](https://projectlombok.org/)은 자바 애플리케이션을 컴파일 할 때 해당하는 코드를 생성해주는 라이브러리입니다.  
